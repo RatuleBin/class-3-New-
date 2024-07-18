@@ -108,5 +108,5 @@ h2 {
 .innerform label {
     display: flex;
     font-family: Poppins;
-    align-items: center;
+    align-items: left;
 }
