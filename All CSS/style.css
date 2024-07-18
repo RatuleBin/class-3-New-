@@ -14,6 +14,7 @@ h2 {
     font-size: 32px;
     padding: 0px 0px 20px 0px;
 }
+
 .main-section {
     background: url(../Img/banner.jpg) center center no-repeat;
     background-size: cover;
@@ -34,7 +35,6 @@ h2 {
     align-items: center;
     justify-content: center;
     height: 100vh;
-  
     border-radius: 5px;
 }
 
@@ -46,6 +46,7 @@ h2 {
     opacity: 0.85;
     background-color: white;
 }
+
 .left, .right {
     width: 50%;
     padding: 20px;
@@ -76,25 +77,31 @@ h2 {
 
 .innerform label {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #333;
 }
 
 .innerform label input {
-   
-    margin-right: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
-.button{
+
+.button {
     margin-top: 20px;
 }
+
 .btn {
     padding: 10px;
     background-color: darkcyan;
     font-size: 18px;
-  
+    border: 1px solid darkcyan;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
-button {
-    border: 1px solid darkcyan;
-    margin-top: 20px;
+.btn:hover {
+    background-color: #005f5f;
 }
